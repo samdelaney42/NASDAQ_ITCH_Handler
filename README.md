@@ -9,12 +9,12 @@ We then read this binary and reconstruct the order book.
 
 This implementation processes ~ 23,000 messages per second.
 
-![comparsion_1](https://github.com/samdelaney42/NASDAQ_ITCH_andler/blob/main/data/images/v2_itch.png)
+![comparsion_1](https://github.com/samdelaney42/NASDAQ_ITCH_Handler/blob/main/data/images/v2_itch.png)
 
 The previous implementation, found in 'archive', processed ~1,000 messages per second
 
-![comparsion_2](https://github.com/samdelaney42/NASDAQ_ITCH_andler/blob/main/data/images/v2_itch.png)
+![comparsion_2](https://github.com/samdelaney42/NASDAQ_ITCH_Handler/blob/main/data/images/v2_itch.png)
 
 And my [LOBSTER](https://github.com/samdelaney42/L2_Order_Book_Handler) implemenation processed ~200 messages per second.
 
-![comparsion_3](https://github.com/samdelaney42/NASDAQ_ITCH_andler/blob/main/data/images/lob.png)
+![comparsion_3](https://github.com/samdelaney42/NASDAQ_ITCH_Handler/blob/main/data/images/lob.png)
