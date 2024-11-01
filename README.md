@@ -3,7 +3,7 @@ This project reconstructs the order book for a given stock using NASDAQ ITCH Dat
 
 To begin we download ITCH sample data using methods borrowed from [Stefan Jansen]([https://github.com/PacktPublishing/Hands-On-Machine-Learning-for-Algorithmic-Trading/blob/master/Chapter02/01_NASDAQ_TotalView-ITCH_Order_Book/01_build_itch_order_book.ipynb](https://github.com/stefan-jansen/machine-learning-for-trading/blob/main/02_market_and_fundamental_data/01_NASDAQ_TotalView-ITCH_Order_Book/01_parse_itch_order_flow_messages.ipynb)).
 
-First, we read the full ITCH sample, extracting only the add order (A, F), modify order (E, C. X. U. D), and trade (P, Q) messages for the specified stock, then repackage these messages back into their own binary file
+First, we read the full ITCH sample, extracting only the add order (A, F), modify order (E, C, X, U, D), and trade (P, Q) messages for the specified stock, then repackage these messages back into their own binary file
 
 Then, we use itch_binary_reader to parse this binary data and reconstruct the order book for x number of messages.
 
