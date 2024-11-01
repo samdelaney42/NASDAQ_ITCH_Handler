@@ -13,7 +13,7 @@ This implementation processes ~ 23,000 messages per second.
 
 The previous implementation, found in 'archive', processed ~1,000 messages per second
 
-![comparsion_2](https://github.com/samdelaney42/NASDAQ_ITCH_Handler/blob/main/data/images/v2_itch.png)
+![comparsion_2](https://github.com/samdelaney42/NASDAQ_ITCH_Handler/blob/main/data/images/v1_itch.png)
 
 And my [LOBSTER](https://github.com/samdelaney42/L2_Order_Book_Handler) implemenation processed ~200 messages per second.
 
